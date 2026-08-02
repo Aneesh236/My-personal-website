@@ -74,7 +74,7 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-        <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto" href="#about">About Me</a></li>
         <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
         <li><a class="nav-link scrollto" href="#services">Services</a></li>
         <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
@@ -339,6 +339,253 @@
       </div>
     </section><!-- End My Resume Section -->
 
+     <!-- ======= Project Experience Section ======= -->
+    <section id="projects" class="projects-classic">
+      <div class="container">
+        <div class="section-title">
+          <span>Project Experience</span>
+          <h2>Project Experience</h2>
+          <p>Selected AI, machine learning and web applications with complete details, results and technology stacks.</p>
+        </div>
+
+        <div class="project-filter-bar text-center mb-4">
+          <button class="project-filter active" type="button" data-project-filter="all">All</button>
+          <button class="project-filter" type="button" data-project-filter="genai">Generative AI</button>
+          <button class="project-filter" type="button" data-project-filter="ml">AI / ML</button>
+          <button class="project-filter" type="button" data-project-filter="web">Web Apps</button>
+        </div>
+
+        <div class="row g-4" id="projectGrid">
+          <div class="col-lg-4 col-md-6 project-column" data-project-category="genai web">
+            <article class="project-card-classic h-100">
+              <div class="project-card-image">
+                <img src="assets/img/portfolio/tmind.png" alt="TravelMind AI travel planner" loading="lazy">
+                
+                <span>January 2026</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-category">Generative AI · Full-stack</p>
+                <h3>TravelMind – AI-Powered Travel Planner</h3>
+                <p>Creates personalised travel itineraries from destination, budget, duration, traveller type and interests.</p>
+                <div class="project-tech"><span>Python</span><span>LangChain</span><span>OpenAI API</span><span>Netlify</span></div>
+                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#travelMindModal">View Full Details</button>
+              </div>
+            </article>
+          </div>
+
+           <div class="col-lg-4 col-md-6 project-column" data-project-category="genai web">
+            <article class="project-card-classic h-100">
+              <div class="project-card-image">
+                <img src="assets/img/portfolio/pub.png" alt="Alleppey Pub ERP application" loading="lazy">
+                <span>Business Application</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-category">ERP · AI integration</p>
+                <h3>Alleppey Pub ERP</h3>
+                <p>A restaurant ERP covering customer ordering, administration and AI sales insights.</p>
+                <div class="project-tech"><span>JavaScript</span><span>FastAPI</span><span>REST API</span><span>LocalStorage</span></div>
+                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#pubErpModal">View Full Details</button>
+              </div>
+            </article>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 project-column" data-project-category="web">
+            <article class="project-card-classic h-100">
+              <div class="project-card-image">
+                <img src="assets/img/portfolio/blood_dir.png" alt="Human Blood Directory application" loading="lazy">
+                <span>B.Tech Major Project</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-category">Web Application · Database</p>
+                <h3>Human Blood Directory</h3>
+                <p>A donor-recipient platform designed to improve access to blood during emergencies.</p>
+                <div class="project-tech"><span>HTML</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#bloodDirectoryModal">View Full Details</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 project-column" data-project-category="ml">
+            <article class="project-card-classic h-100">
+              <div class="project-card-image">
+                <img src="assets/img/portfolio/cnn.png" alt="Fruit recognition using CNN" loading="lazy">
+                <span>May 2023</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-category">Computer Vision · 96% accuracy</p>
+                <h3>Fruit Recognition using CNN</h3>
+                <p>A multi-class image recognition system trained on the Fruits-360 dataset.</p>
+                <div class="project-tech"><span>TensorFlow</span><span>Keras</span><span>OpenCV</span><span>CNN</span></div>
+                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#fruitCnnModal">View Full Details</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 project-column" data-project-category="ml">
+            <article class="project-card-classic h-100">
+              <div class="project-card-image">
+                <img src="assets/img/portfolio/portfolio-1.jpeg" alt="Automobile insurance fraud detection" loading="lazy">
+                <span>August 2022</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-category">MSc Thesis · 99.87% accuracy</p>
+                <h3>Fake Automobile Insurance Detection</h3>
+                <p>Fraud classification research comparing models and class-balancing techniques.</p>
+                <div class="project-tech"><span>XGBoost</span><span>SVM</span><span>SMOTE</span><span>ADASYN</span></div>
+                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#fraudModal">View Full Details</button>
+              </div>
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 project-column" data-project-category="ml">
+            <article class="project-card-classic h-100">
+              <div class="project-card-image">
+                <img src="assets/img/portfolio/cyb.png" alt="Cybersecurity prediction models" loading="lazy">
+                <span>Freelance ML Work</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-category">Cybersecurity · Five models</p>
+                <h3>Cybersecurity Prediction Suite</h3>
+                <p>Predictive modelling projects for five common cyberattack categories.</p>
+                <div class="project-tech"><span>Python</span><span>scikit-learn</span><span>Pandas</span><span>SQL</span></div>
+                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#cyberModal">View Full Details</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Project Experience Section -->
+
+
+    
+<section id="intern" class="intern">
+  <div class="container">
+
+    <div class="section-title" data-aos="zoom-out">
+      <span>Certifications &amp; Training</span>
+      <h2>Certifications &amp; Training</h2>
+      <p>Professional learning across AI, data analytics, machine learning, deep learning, web development and cybersecurity.</p>
+    </div>
+
+    <div class="row">
+
+       <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/certai.jpg" class="img-fluid" alt="LLM engineering training">
+          </div>
+          <div class="member-info">
+            <h4>LLM Engineering, RAG &amp; AI Agents</h4>
+            <span>Udemy Masterclass</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/aws.JPG" class="img-fluid" alt="Generative AI training">
+          </div>
+          <div class="member-info">
+            <h4>Foundation of Generative AI</h4>
+            <span>AWS Skill Builder</span>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/intern/GGDA.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Google Data Analytics</h4>
+            <span>Google Data Analytics Professional Certificate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/intern/matlab.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>MATLAB Onramp</h4>
+            <span>Core MATLAB programming</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/intern/deeplearn.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Deep Learning Onramp</h4>
+            <span>MATLAB deep learning fundamentals</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/intern/mll.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Machine Learning Onramp</h4>
+            <span>MATLAB machine learning workflow</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/intern/imageprocess.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Image Processing</h4>
+            <span>MATLAB image processing fundamentals</span>
+          </div>
+        </div>
+      </div>
+
+ <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/intern/abas.jpg" class="img-fluid" alt="" style="width:100%;max-width:300px">
+          </div>
+          <div class="member-info">
+            <h4>Android Development</h4>
+            <span>Mobile Application</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <img src="assets/img/intern/stepz.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Ethical Hacking</h4>
+            <span>Ethical Hacking Techniques</span>
+          </div>
+        </div>
+      </div>
+     
+
+    </div>
+  </div>
+</section><!-- End Certifications and Training Section -->
+
     <!-- ======= My Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
@@ -387,122 +634,7 @@
       </div>
     </section><!-- End My Services Section -->
 
-    <!-- ======= Project Experience Section ======= -->
-    <section id="projects" class="projects-classic">
-      <div class="container">
-        <div class="section-title">
-          <span>Project Experience</span>
-          <h2>Project Experience</h2>
-          <p>Selected AI, machine learning and web applications with complete details, results and technology stacks.</p>
-        </div>
-
-        <div class="project-filter-bar text-center mb-4">
-          <button class="project-filter active" type="button" data-project-filter="all">All</button>
-          <button class="project-filter" type="button" data-project-filter="genai">Generative AI</button>
-          <button class="project-filter" type="button" data-project-filter="ml">AI / ML</button>
-          <button class="project-filter" type="button" data-project-filter="web">Web Apps</button>
-        </div>
-
-        <div class="row g-4" id="projectGrid">
-          <div class="col-lg-4 col-md-6 project-column" data-project-category="genai web">
-            <article class="project-card-classic h-100">
-              <div class="project-card-image">
-                <img src="assets/img/ai.jpg" alt="TravelMind AI travel planner" loading="lazy">
-                <span>January 2026</span>
-              </div>
-              <div class="project-card-body">
-                <p class="project-category">Generative AI · Full-stack</p>
-                <h3>TravelMind – AI-Powered Travel Planner</h3>
-                <p>Creates personalised travel itineraries from destination, budget, duration, traveller type and interests.</p>
-                <div class="project-tech"><span>Python</span><span>LangChain</span><span>OpenAI API</span><span>Netlify</span></div>
-                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#travelMindModal">View Full Details</button>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-column" data-project-category="ml">
-            <article class="project-card-classic h-100">
-              <div class="project-card-image">
-                <img src="assets/img/portfolio/cnn.png" alt="Fruit recognition using CNN" loading="lazy">
-                <span>May 2023</span>
-              </div>
-              <div class="project-card-body">
-                <p class="project-category">Computer Vision · 96% accuracy</p>
-                <h3>Fruit Recognition using CNN</h3>
-                <p>A multi-class image recognition system trained on the Fruits-360 dataset.</p>
-                <div class="project-tech"><span>TensorFlow</span><span>Keras</span><span>OpenCV</span><span>CNN</span></div>
-                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#fruitCnnModal">View Full Details</button>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-column" data-project-category="ml">
-            <article class="project-card-classic h-100">
-              <div class="project-card-image">
-                <img src="assets/img/portfolio/portfolio-1.jpg" alt="Automobile insurance fraud detection" loading="lazy">
-                <span>August 2022</span>
-              </div>
-              <div class="project-card-body">
-                <p class="project-category">MSc Thesis · 99.87% accuracy</p>
-                <h3>Fake Automobile Insurance Detection</h3>
-                <p>Fraud classification research comparing models and class-balancing techniques.</p>
-                <div class="project-tech"><span>XGBoost</span><span>SVM</span><span>SMOTE</span><span>ADASYN</span></div>
-                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#fraudModal">View Full Details</button>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-column" data-project-category="genai web">
-            <article class="project-card-classic h-100">
-              <div class="project-card-image">
-                <img src="assets/img/portfolio/portfolio-2.jpg" alt="Alleppey Pub ERP application" loading="lazy">
-                <span>Business Application</span>
-              </div>
-              <div class="project-card-body">
-                <p class="project-category">ERP · AI integration</p>
-                <h3>Alleppey Pub ERP</h3>
-                <p>A restaurant ERP covering customer ordering, administration and AI sales insights.</p>
-                <div class="project-tech"><span>JavaScript</span><span>FastAPI</span><span>REST API</span><span>LocalStorage</span></div>
-                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#pubErpModal">View Full Details</button>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-column" data-project-category="web">
-            <article class="project-card-classic h-100">
-              <div class="project-card-image">
-                <img src="assets/img/portfolio/portfolio-4.jpg" alt="Human Blood Directory application" loading="lazy">
-                <span>B.Tech Major Project</span>
-              </div>
-              <div class="project-card-body">
-                <p class="project-category">Web Application · Database</p>
-                <h3>Human Blood Directory</h3>
-                <p>A donor-recipient platform designed to improve access to blood during emergencies.</p>
-                <div class="project-tech"><span>HTML</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
-                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#bloodDirectoryModal">View Full Details</button>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-column" data-project-category="ml">
-            <article class="project-card-classic h-100">
-              <div class="project-card-image">
-                <img src="assets/img/portfolio/portfolio-6.jpg" alt="Cybersecurity prediction models" loading="lazy">
-                <span>Freelance ML Work</span>
-              </div>
-              <div class="project-card-body">
-                <p class="project-category">Cybersecurity · Five models</p>
-                <h3>Cybersecurity Prediction Suite</h3>
-                <p>Predictive modelling projects for five common cyberattack categories.</p>
-                <div class="project-tech"><span>Python</span><span>scikit-learn</span><span>Pandas</span><span>SQL</span></div>
-                <button class="project-detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#cyberModal">View Full Details</button>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Project Experience Section -->
-
+   
     <!-- Project detail modals -->
     <div class="modal fade project-modal" id="travelMindModal" tabindex="-1" aria-labelledby="travelMindTitle" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
@@ -853,128 +985,6 @@
     </section><!-- End My Portfolio Section -->
 <!-- End Pricing Section -->
 
-<section id="intern" class="intern">
-  <div class="container">
-
-    <div class="section-title" data-aos="zoom-out">
-      <span>Certifications &amp; Training</span>
-      <h2>Certifications &amp; Training</h2>
-      <p>Professional learning across AI, data analytics, machine learning, deep learning, web development and cybersecurity.</p>
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/intern/abas.jpg" class="img-fluid" alt="" style="width:100%;max-width:300px">
-          </div>
-          <div class="member-info">
-            <h4>Android Development</h4>
-            <span>Mobile Application</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/intern/stepz.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="member-info">
-            <h4>Ethical Hacking</h4>
-            <span>Ethical Hacking Techniques</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/intern/GGDA.JPG" class="img-fluid" alt="">
-          </div>
-          <div class="member-info">
-            <h4>Google Data Analytics</h4>
-            <span>Google Data Analytics Professional Certificate</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/intern/matlab.JPG" class="img-fluid" alt="">
-          </div>
-          <div class="member-info">
-            <h4>MATLAB Onramp</h4>
-            <span>Core MATLAB programming</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/intern/deeplearn.JPG" class="img-fluid" alt="">
-          </div>
-          <div class="member-info">
-            <h4>Deep Learning Onramp</h4>
-            <span>MATLAB deep learning fundamentals</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/intern/mll.JPG" class="img-fluid" alt="">
-          </div>
-          <div class="member-info">
-            <h4>Machine Learning Onramp</h4>
-            <span>MATLAB machine learning workflow</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/intern/imageprocess.JPG" class="img-fluid" alt="">
-          </div>
-          <div class="member-info">
-            <h4>Image Processing</h4>
-            <span>MATLAB image processing fundamentals</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/ai.jpg" class="img-fluid" alt="Generative AI training">
-          </div>
-          <div class="member-info">
-            <h4>Foundation of Generative AI</h4>
-            <span>AWS Skill Builder</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member" data-aos="fade-up">
-          <div class="member-img">
-            <img src="assets/img/portfolio/aann.jpg" class="img-fluid" alt="LLM engineering training">
-          </div>
-          <div class="member-info">
-            <h4>LLM Engineering, RAG &amp; AI Agents</h4>
-            <span>Udemy Masterclass</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section><!-- End Certifications and Training Section -->
 
     <!-- ======= Contact Me Section ======= -->
     <section id="contact" class="contact">
